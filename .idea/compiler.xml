@@ -10,13 +10,11 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="springbootdemo1" target="11" />
       <module name="springbootone" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="springbootdemo1" options="-parameters" />
       <module name="springbootone" options="-parameters" />
     </option>
   </component>
