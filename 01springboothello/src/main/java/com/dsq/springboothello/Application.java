@@ -1,13 +1,13 @@
-package com.dsq.springbootdemoone;
+package com.dsq.springboothello;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBootDemoOneApplication {
+public class Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringBootDemoOneApplication.class, args);
+        SpringApplication.run(Application.class, args);
     }
 
 }
