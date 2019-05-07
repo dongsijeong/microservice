@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Thymeleaf Demo</title>
+</head>
+<body>
+    <span th:text="Hello"></span>
+    <hr/>
+    <span th:text="${msg}"></span>
+    <hr/>
+    <input type="text" name="username" th:value="${msg}">
+    <hr/>
+    <span th:text="${#strings.isEmpty(msg)}"></span>
+    <hr/>
+    <span th:text="${#strings.contains(msg,'First')}"></span>
+    <hr/>
+    <span th:text="${#strings.length(msg)}"></span>
+    <hr/>
+    <span th:text="${#dates.format(key)}"></span>
+    <hr/>
+    <span th:text="${#dates.format(key,'yyyy-MM-dd')}"></span>
+    <hr/>
+    <span th:text="${#dates.month(key)}"></span>
+    <hr/>
+
+</body>
+</html>
