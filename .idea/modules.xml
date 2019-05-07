@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/01springboothello/01springboothello.iml" filepath="$PROJECT_DIR$/01springboothello/01springboothello.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/microservice.iml" filepath="$PROJECT_DIR$/.idea/microservice.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springbootone/springbootone.iml" filepath="$PROJECT_DIR$/springbootone/springbootone.iml" />
     </modules>
   </component>
 </project>
