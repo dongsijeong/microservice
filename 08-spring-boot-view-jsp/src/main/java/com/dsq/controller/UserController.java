@@ -1,6 +1,6 @@
 package com.dsq.controller;
 
-import com.dsq.pojo.Users;
+import com.dsq.domain.Users;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;

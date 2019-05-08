@@ -1,4 +1,4 @@
-package com.dsq.pojo;
+package com.dsq.domain;
 
 public class Users {
     private Integer userid;
