@@ -3,7 +3,26 @@
 
 <mapper namespace="com.dsq.mapper.UsersMapper">
 
+    <select id="selectUsersAll" resultType="users">
+        select id, name, age from users
+    </select>
+
+    <select id="selectUserById" resultType="users">
+        select id, name, age from users
+        where id = #{id}
+    </select>
+
     <insert id="insertUser" parameterType="users">
         insert into users(name, age) values(#{name}, #{age})
     </insert>
+
+    <update id="updateUser" parameterType="users">
+        update users set name = #{name}, age = #{age}
+        where id = #{id}
+    </update>
+
+    <delete id="deleteUserById">
+        delete from users
+        where id = #{id}
+    </delete>
 </mapper>
