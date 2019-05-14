@@ -1,4 +1,4 @@
-package com.dsq.Controller;
+package com.dsq.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
